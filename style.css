@@ -328,6 +328,7 @@ h2:hover{
    font-weight: bolder;
    color:white;
    font-size: 1.2rem;
+   letter-spacing: 0.025rem;
 }
 
 .footer-logo .social{

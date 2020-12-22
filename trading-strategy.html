@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="Short guide on my trading system and risk management approach, based on my personal experience.">
+   <meta name="keywords" content="trading strategy, cryptocurrencies, crypto, trading">
+
+   <link rel="stylesheet" href="../style.css">
+   <link rel="stylesheet" media="print" href="../print.css">
+   <link rel="icon" href="img/icon.png">
+   <script async src="https://afarkas.github.io/lazysizes/lazysizes.min.js"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" media="print" onload="this.media='all'">
+   <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
+   
+   <title>DigitalCollars</title>
+</head>
+<body id="blog">
+
+   <!-- Navbar -->
+   <nav id="navbar">
+      <h1 class="logo">
+         <span class="primary-color">Digital</span>Collars
+      </h1>
+      <ul>
+         <li><a href="https://digitalcollars.com">Blog</a></li>
+         <li><a href="../about.html">About</a></li>
+      </ul>
+   </nav>
+   <!-- End of Navbar -->
+   
+   <!-- Articles -->
+   <article class="articles">
+
+      <!-- Post title & date -->
+      <h1 class="post-title">Trading strategy and risk management</h1>
+      <div class="post-date">September 10, 2020</div>
+
+      <!-- Cover -->
+      <div class="post-cover">
+         <picture>
+            <source media="(min-width: 768px)" data-srcset="../img/trading-strategy-900px.jpg">
+            <img data-src="../img/trading-strategy-380px.jpg" class="lazyload" alt="Trading strategy">
+         </picture>
+      </div>
+         
+      <!-- Post data -->
+      <div class="post-data">             
+         Although this post might not seem appropriate for the topics covered on this blog, I truly relate trading to real-life decisions, especially in business.
+      </div>
+      <div class="post-data">             
+         I’m not a financial advisor neither this post aims to be taken as financial advice. Having said that, I think everyone should trade at least once in their life, with a very small amount of money one could afford to lose. Fun fact, rumors say 90% of new traders lose 90% of their money in 90 days (aka 90-90-90 rule).
+      </div>
+      <div class="post-data"> 
+         I understand this doesn’t encourage many people to start pouring money into a platform, but the truth is, there is such a huge potential when done right, just exactly as in business.
+      </div>
+
+      <h2>Motivation</h2>
+
+      <div class="post-data"> 
+         I started trading in May 2017. I saw some ads about Bitcoin and other cryptocurrencies and decided to learn more about this. Part of my yearly bonus went directly into it.
+      </div>
+      <div class="post-data"> 
+         To be honest, I was pretty shocked that none had told me about trading before, neither in high school, university nor at work. Seeing those graphs with 15-20% moves within weeks seemed absolutely fantastic for me. I was hooked.
+      </div>
+      <div class="post-data"> 
+         What I liked the most was that it’s a fair game. This is the very reason why I’m still trading nowadays. In society there are some people that get all the respect and compliments for granted, only because they have accomplished something in the past. Problem is, what worked some years ago doesn’t necessarily mean that it still does work today.
+      </div>
+      <div class="post-data"> 
+         This also applies to business. We all have met the kind of manager that always has the last word, even when what is said is totally wrong. Fortunately, this doesn’t happen in trading. The second you’re wrong, the market will let you know. And if you’re dumb enough to keep forcing your bias, the market will handle the liquidation of your account very quickly. Thanks for your donations.
+      </div>
+      <div class="post-data"> 
+         On the other hand, there is no need to be a genius to earn money. In fact, you don’t even need to win everytime you take a trade. What is important in this game is that you lose less than what you win. Pretty straightforward, right? Psychology and emotions are key. Humans are very reluctant to take a $500 loss, so they keep the trade open. Some people even keep adding to this loser trade to average their entry. In a matter of days, that amount could wipe out the entire trading account (yes, I know that for experience).
+      </div>
+      <div class="post-data"> 
+         How can you be profitable then? There is no right answer for that question. What has worked for me is studying some basic concepts of technical analysis (TA) and developing a trading system that mitigates my risk. The following is a short introduction to TA and my reasoning when taking a trade.
+      </div>
+
+      <h2>Charts & candlesticks</h2>
+
+      <div class="post-data"> 
+         I’m not going to shill any referral link in this post, but TradingView is the mandatory platform for visualizing the charts. It has so many great features and its free tier is more than enough to get started.
+      </div>
+      <div class="post-data"> 
+         First of all, we need to understand what candlesticks are. They represent what has happened to the price in a given timeframe (more on that later). They have an opening and closing price (i.e. opens at $10.00 at 00:00 UTC and closes the day at $12.50), and also have the extremes at which the assets have been trading during the day, high and low price, also known as wicks (for example, price could have reached as high as $15.70 during the peak of the day, but finally closed at $12.50).
+      </div>
+      <div class="post-data"> 
+         Candlesticks are great, because it provides us information about how the price reacts at certain levels. This is how a daily chart with candlesticks looks like:
+      </div>
+
+      <div class="post-media">
+         <picture>
+            <img data-src="../img/candlestick.png" class="lazyload" alt="Candlestick chart">
+         </picture>
+      </div>
+
+      <h2>Time-frames</h2>
+
+      <div class="post-data"> 
+         Candlesticks represent the information at which the price has been traded in a given period of time, also called time-frame. Higher time-frame means a bigger period of data aggregation, like months, quarters, years, etc. On the other hand, a lower time-frame is identified with seconds, minutes, and sometimes with up to one hour. This strongly depends on the trading style.
+      </div>
+      <div class="post-data"> 
+         Generally speaking, high time-frames are more robust and reliable. In fact, there is a saying that states “when in doubt, zoom out”. Lower time-frames, however, are more dynamic and fast, perfect for intraday trading.
+      </div>
+      <div class="post-data"> 
+         My particular trading system consists of a hybrid of several high trame-frame levels (monthly, weekly and daily) to form by bias, and a lower time-frame (one hour) for entry and exit signals (more on that later).
+      </div>
+
+      <h2>Market structure</h2>
+      
+      <div class="post-data"> 
+         Market structure is a fancy term used for identifying when an asset is trending upwards or downwards. When the trend is bullish (going upwards), price makes high highs (HH) and high lows (HL), whereas when the trend is bearish (going downwards), price makes lower highs (LH) and lower lows (LL).
+      </div>
+
+      <div class="post-media">
+         <picture>
+            <img data-src="../img/bullish.png" class="lazyload" alt="Bullish chart">
+         </picture>
+      </div>
+
+      <div class="post-media">
+         <picture>
+            <img data-src="../img/bearish.png" class="lazyload" alt="Bearish chart">
+         </picture>
+      </div>
+
+      <div class="post-data"> 
+         One of the easiest ways of making money is trading the trend. If the trend is bullish, pull-backs are for buying, and when the trend is bearish, rallies are for selling. When trading this way, it’s important to identify when there is a trend reversal: Trend is bullish/bearish until proven otherwise.
+      </div>
+
+      <h2>Support & resistance</h2>
+
+      <div class="post-data"> 
+         These are two of the most important concepts in trading. Support is the level at which buyers step in and don’t allow the price to tank. Resistance is the level at which sellers react and makes the price retrace.
+      </div>
+      <div class="post-data"> 
+         These are imaginary lines at which price is limited. Drawing this level is more an art than a science, so one gets better with time and patience. However, there are certain technical caveats that we can take:
+      </div>
+      <div class="post-data"> 
+         1. Always read the charts from right to left, not from left to right. We need to get the most recent price action to define our levels. Fresh data only:
+      </div>
+
+      <div class="post-media">
+         <picture>
+            <img data-src="../img/fresh-level.png" class="lazyload" alt="Fresh levels">
+         </picture>
+      </div>
+
+      <div class="post-data"> 
+         2. The more consecutives touches of a level, the weaker it gets. 
+      </div>
+
+      <div class="post-media">
+         <picture>
+            <img data-src="../img/broken-level.png" class="lazyload" alt="Broken level">
+         </picture>
+      </div>
+
+      <div class="post-data"> 
+         3. Once support is broken, it will - or at least should - act as resistance. The same applies the other way around, once resistance is broken, it will act as support. 
+      </div>
+
+      <div class="post-media">
+         <picture>
+            <img data-src="../img/broken-level-01.png" class="lazyload" alt="Broken level">
+         </picture>
+      </div>
+
+      <div class="post-data"> 
+         4. Best levels selection are the ones you don’t force, but they show up naturally in the chart. 
+      </div>
+
+      <div class="post-media">
+         <picture>
+            <img data-src="../img/level-selection.png" class="lazyload" alt="Support and resistance levels">
+         </picture>
+      </div>
+
+      <h2>Risk management</h2>
+
+      <div class="post-data"> 
+         Once the levels are marked and the trading system identifies a potential setup, it’s time to define the risk of the trade. This is the most important concept in trading, yet still underrated. How much will you get in the best case scenario and how much are you willing to lose? Sometimes I get clearly defined setups but end up not taking the trade because the potential outcome in comparison with the risk is too low.
+      </div>
+      <div class="post-data"> 
+         To protect your capital, you must use stop market orders in the trading platform. These are normally placed below the swing low (for bullish trends) or above the swing high (for bearish trends), but this depends on the setup.
+      </div>
+      <div class="post-data"> 
+         How can I set my stop loss and target? These two figures are not arbitrary numbers at all. They must be set according to your previously defined levels. Remember, you should buy support and sell resistance, so clear level selection is key.
+      </div>
+
+      <div class="post-media">
+         <picture>
+            <img data-src="../img/risk-management.png" class="lazyload" alt="Risk management">
+         </picture>
+      </div>
+
+      <div class="post-data"> 
+         Risk management is extremely important when trading with leverage. If you’ve already defined how much you can afford to lose per trade (let’s say $50) and have already a setup to execute, with a clear invalidation stop loss (let’s say 3% away from entry), you can easily calculate the position size by dividing $50 by 0,03, which is around $1,667. In case you only have $560 in the trading account, you can use 3x leverage and take the trade in a controlled and risk-defined manner, without blowing the entire trading account.
+      </div>
+      <div class="post-data"> 
+         Being profitable at trading is not a matter of winning every trade you take. In fact, best traders have only around 50% winning-rate. How is it possible? Well, they tend to lose less money than what they make. This is the secret.
+      </div>
+
+      <h2>Greed & fear</h2>
+
+      <div class="post-data"> 
+         Now that we have all the technical analysis knowledge, a trading system and savings to spend, how is it possible that so many people blow their trading account within 90 days?
+      </div>
+      <div class="post-data"> 
+         Money is made on the extremes. You have to buy when there is fear of buying and sell when people get greedy. However, people do the exact opposite: they buy the tops and sell the bottoms.
+      </div>
+
+      <h2>Trading system</h2>
+
+      <div class="post-data"> 
+         My trading system consists in a hybrid of high time-frame levels and low time-frame signals.
+      </div>
+      <div class="post-data"> 
+         I use market structure and monthly, weekly and daily levels to define my bias, and low time frame for triggering entries and exit signals. Use 1H candle close for an actionable setup but sometimes volume on a 1 minute chart can provide information as well. Risk must be defined to take the trade.
+      </div>
+      <div class="post-data">
+         Having a bias is not the same as taking a trade. If my bias is bearish, resistance must make the price retrace and previous lows must be taken. The same applies the other way around. I need to check that the price reacts as I expect according to my bias.
+      </div>
+      <div class="post-data">
+         There should be confluence between those levels, but it doesn’t always happen. Weekly bias is more important than daily, but one should see the chart and check if the low time frame is showing strength or weakness.
+      </div>
+      <div class="post-data">
+         Below my worst trade of 2019. I was sure that BTC was going to $2000, so I started shorting on January. I didn't define my risk and didn't put a stop loss. I was way too confident on my trade (first error).
+      </div>
+      <div class="post-data">
+         Monthly chart was neutral as we were not approaching any high time-frame level, but I insisted on shorting. Weekly resistance was way higher, but I didn't pay attention. However, we were at daily resistance, making lower highs and lower lows. That was the only market structure I trusted at that point. You see? When in doubt, zoom out!
+      </div>
+
+      <div class="post-media">
+         <picture>
+            <img data-src="../img/monthly_02.png" class="lazyload" alt="Monthly Chart">
+         </picture>
+      </div>
+
+      <div class="post-media">
+         <picture>
+            <img data-src="../img/weekly_02.png" class="lazyload" alt="Weekly Chart">
+         </picture>
+      </div>
+
+      <div class="post-media">
+         <picture>
+            <img data-src="../img/daily_03.png" class="lazyload" alt="Daily Chart">
+         </picture>
+      </div>
+
+      <div class="post-data">
+         Somehow I got lucky and we indeed went downwards, but I got extremly greedy and didn't take any profit. I gave back all my possible profits in one day, and the market started making higher lows in the daily chart. I was convinced it was a trap, and didn't take the loss. Market kept going up until reaching daily range high, where I took a massive loss.
+      </div>
+
+      <div class="post-media">
+         <picture>
+            <img data-src="../img/daily_04.png" class="lazyload" alt="Daily Chart">
+         </picture>
+      </div>
+
+      <div class="post-data">
+         Some lessons from that experience: always draw your levels using high time-frame charts, set your entries and target close to those levels, always use a stop loss and keep checking the market structure, at least in the daily chart.
+      </div>
+
+      <h2>Indicators</h2>
+
+      <div class="post-data"> 
+         Lot of people are really into indicators. I’m not. I used some of them in the past but I found them really context-oriented, so I skipped almost all of them. Don’t get me wrong, I know many successful traders use moving averages, clouds and so on, but they simply don’t work for me.
+      </div>
+      <div class="post-data"> 
+         However, there is one indicator that I use quite a lot, which is weekly RSI. I use it only when the market is tanking (or about to tank) to get as close to the bottom as possible. Anything below 29 weekly RSI is a buy opportunity for me for long-term holding. That’s it, it’s that simple. Below some examples, both from crypto and from legacy markets:
+      </div>
+
+      <div class="post-media">
+         <picture>
+            <img data-src="../img/rsi_01.png" class="lazyload" alt="Weekly RSI chart">
+         </picture>
+      </div>
+
+      <div class="post-media">
+         <picture>
+            <img data-src="../img/rsi_02.png" class="lazyload" alt="Weekly RSI chart">
+         </picture>
+      </div>
+
+      <div class="post-media">
+         <picture>
+            <img data-src="../img/rsi_03.png" class="lazyload" alt="Weekly RSI chart">
+         </picture>
+      </div>
+
+      <div class="post-media">
+         <picture>
+            <img data-src="../img/rsi_04.png" class="lazyload" alt="Weekly RSI chart">
+         </picture>
+      </div>
+
+      <h2>Taxes</h2>
+
+      <div class="post-data"> 
+         I’m living in Spain at the moment, so earnings from trading are subjected to capital gains. That means, I have to pay 19% for the first 5.000 € profits, 21% up to 50.000 € and 23% if I’m lucky enough and make much more than that.
+      </div>
+      <div class="post-data"> 
+         Thank you very much for reading this post. I hope you enjoyed it. Trading can be a life changer for some people if done in a controlled way. I do believe everyone should put some spare money on it at least once in their life.
+      </div>
+
+   </article>
+   <!-- End of Article -->
+
+   <!-- Footer -->
+   <footer class="footer-bg">
+      <div class="footer-container">
+         <div class="footer-logo">
+            DigitalCollars
+            <div class="social">
+               <a href="mailto:hello@digitalcollars.com" target="_blank">
+                  <i class="fas fa-envelope"></i>
+               </a>
+               <a href="https://github.com/darroyolpz" target="_blank">
+                  <i class="fab fa-github"></i>
+               </a>
+               <a href="https://twitter.com/DigitalCollars" target="_blank">
+                  <i class="fab fa-twitter"></i>
+               </a>
+            </div>
+         </div>
+         <div class="footer-img">
+            <img data-sizes="auto" data-src="../img/footer.png" class="lazyload" alt="footer">
+         </div>
+      </div>
+   </footer>
+   <!-- End of Footer -->
+
+</body>
+</html>
